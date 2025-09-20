@@ -1,0 +1,5 @@
+/bin/pandoc.exe
+/dist/
+/build/
+*.spec
+conf/settings.json

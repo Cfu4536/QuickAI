@@ -1,0 +1,17 @@
+{
+  "Light-Style": {
+    "background-color": "#1E1E1E",
+    "q-bubble": "QTextEdit{background-color: #44c0c0c0;border-radius: 20px;border-width: 1px;border-style: hidden;padding: 15px;}QTextEdit:hover{background-color: #66c0c0c0;border-radius: 20px;border-width: 1px;border-style: hidden;padding: 15px;}",
+    "a-bubble": "QTextEdit{background-color: #44929ff5;border-radius: 20px;border-width: 1px;border-style: hidden;padding: 15px; monospace;}QTextEdit:hover{background-color: #66929ff5;border-radius: 20px;border-width: 1px;border-style: hidden;padding: 15px;monospace;}",
+    "sent-butten": {
+      "style": "QPushButton {\n    /* 基础样式 - 使用您指定的颜色 */\n    background-color: #66929ff5;  /* 主背景色 */\n    border: 2px solid #5a82d5;   /* 稍深的边框色 */\n    border-radius: 15px;\n    color: #ffffff;              /* 白色文字 */\n    font-size: 18px;\n    font-weight: medium;\n    padding: 8px 20px;\n    min-width: 60px;\n    \n    /* 渐变效果 - 基于您颜色的变体 */\n    background: qlineargradient(\n        x1:0, y1:0, x2:0, y2:1,\n        stop:0 #769ff5, stop:1 #66929ff5\n    );\n    \n    /* 文字效果 */\n    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);\n}\n\n/* 悬停效果 - 稍微变亮 */\nQPushButton:hover {\n    background: qlineargradient(\n        x1:0, y1:0, x2:0, y2:1,\n        stop:0 #86afff, stop:1 #76a2ff\n    );\n    border-color: #6a92e5;\n}\n\n/* 按下效果 - 加深颜色 */\nQPushButton:pressed {\n    background: qlineargradient(\n        x1:0, y1:0, x2:0, y2:1,\n        stop:0 #5682e5, stop:1 #4672d5\n    );\n    padding: 9px 19px 7px 21px;\n    border-color: #4a72c5;\n}\n\n/* 禁用状态 - 灰色调 */\nQPushButton:disabled {\n    background: #c0c8d0;\n    border-color: #b0b8c0;\n    color: #f0f0f0;\n}\n\n/* 焦点状态 - 发光效果 */\nQPushButton:focus {\n    outline: none;\n    border: 2px solid #a0c0ff;\n    box-shadow: 0 0 5px rgba(160, 192, 255, 0.7);\n}",
+      "sent": "",
+      "stop": ""
+    }
+  },
+  "Dark-Style":{
+
+  }
+}
+
+

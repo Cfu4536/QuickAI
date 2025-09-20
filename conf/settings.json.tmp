@@ -1,0 +1,130 @@
+{
+  "model_list": {
+    "gpt-3.5-turbo-1106": {
+      "allow_conversation_count": 30,
+      "max_input_length": 4000,
+      "api_key": [
+
+      ],
+      "url": "https://api.chatanywhere.tech/v1"
+    },
+    "gpt-4o-mini": {
+      "allow_conversation_count": 30,
+      "max_input_length": 4000,
+      "api_key": [
+
+      ],
+      "url": "https://api.chatanywhere.tech/v1"
+    },
+    "gpt-4o": {
+      "allow_conversation_count": 30,
+      "max_input_length": 4000,
+      "api_key": [
+
+      ],
+      "url": "https://api.chatanywhere.tech/v1"
+    },
+    "spark-lite": {
+      "allow_conversation_count": 30,
+      "max_input_length": 20000,
+      "api_key": [
+
+      ],
+      "url": "https://spark-api-open.xf-yun.com/v1/chat/completions"
+    },
+    "deepseek-reasoner": {
+      "allow_conversation_count": 30,
+      "max_input_length": 20000,
+      "api_key": [
+
+      ],
+      "url": "https://api.deepseek.com"
+    },
+    "deepseek-chat": {
+      "allow_conversation_count": 30,
+      "max_input_length": 20000,
+      "api_key": [
+
+      ],
+      "url": "https://api.deepseek.com"
+    }
+  },
+  "role_list": {
+    "mysql高手": {
+      "prompt": "请为我提供关于MySQL的高级查询优化技巧和性能调优最佳实践，假设您是一位MySQL专家。"
+    },
+    "百科全书": {
+      "prompt": "我会给你一个词，请简洁且准确地给我介绍这个名词的概念，一定要严谨，如果你有不确定的，请务必告诉我。",
+      "messages": [
+        {
+          "role": "user",
+          "content": "如果我问你，你叫什么名字"
+        },
+        {
+          "role": "assistant",
+          "content": "我要回答：我叫维基百科。"
+        }
+      ]
+    }
+  },
+  "collection": {
+    "大语言": [
+      {
+        "name": "chatGPT",
+        "url": "https://chat.openai.com/chat"
+      },
+      {
+        "name": "文心一言",
+        "url": "https://yiyan.baidu.com/"
+      },
+      {
+        "name": "通义千问",
+        "url": "https://tongyi.aliyun.com/qianwen/"
+      },
+      {
+        "name": "讯飞星火",
+        "url": "https://xinghuo.xfyun.cn/desk"
+      },
+      {
+        "name": "DeepSeek",
+        "url": ""
+      }
+    ],
+    "音乐": [
+      {
+        "name": "天音",
+        "url": "https://tianyin.music.163.com/"
+      },
+      {
+        "name": "Suno",
+        "url": "https://www.suno.ai/"
+      }
+    ],
+    "文档": [
+      {
+        "name": "Gamma",
+        "url": "https://gamma.app/generate"
+      },
+      {
+        "name": "百度文档",
+        "url": "https://wenku.baidu.com/ndview/browse/createview?_wkts_=1700066214979"
+      }
+    ],
+    "图像": [
+      {
+        "name": "Liblilibu",
+        "url": "https://www.liblib.ai/"
+      },
+      {
+        "name": "Bing DALL·E 3",
+        "url": "https://cn.bing.com/create"
+      }
+    ],
+    "其他": [
+      {
+        "name": "AI Bot",
+        "url": "https://ai-bot.cn/"
+      }
+    ]
+  }
+}
